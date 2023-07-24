@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/style_index.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+		<section>
+			<div class="container py-2">
+				<h1 class="my-5">Bookmarker</h1>
+				<hr>
+				<div class="text-center containergGroup py-5">
+					<h4 class="pb-4">Bookmark your favorite sites</h4>
+					<div class="form-group">
+						<label for="siteNameInput" class="">Site Name</label>
+						<input placeholder="Bookmarker Name" class="form-control text-info w-75 m-auto" type="text" id="siteNameInput">
+					
+						<div class="alert alert-error m-auto" id="nameError" style="display: none;">Name is required</div>
+					
+					</div>
+					<div class="form-group">
+						<label for="siteUrlInput" class="">Site URL</label>
+						<input placeholder="website URL" class="form-control text-info w-75 m-auto" type="text" id="siteUrlInput">
+
+					</div>
+
+					<button id="mainBtn" onclick="addProduct()" class=" addUpdate btn btn-primary  p-2">Submit</button>
+
+					<button onclick="updateNow()" class="buttonUpdate addUpdate btn btn-success p-2 d-none">Add Update</button>
+
+				</div>	
+		
+				<div>
+					<!-- <input id="searchId" placeholder="search product" onkeyup="Search(this.value)" class="form-control w-50 m-auto" type="text"> -->
+					<input id="searchId" placeholder="search product" class="form-control w-50 m-auto" type="text">
+				</div>				
+			</div>
+		</section>
+		
+		<section>
+			<div class="container" id="rowBody">
+			</div>
+		</section>
+		
+		<footer>
+			<div class="container">
+				<hr>
+				<div class="incCopy p-3">© 2019 Bookmarker Inc.</div>
+			</div>
+		</footer>
+		
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/js_index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+h1{
+	color: #aaaaaa;
+	font-size: 32px;
+}
+.containergGroup{background-color: #EEE}
+.incCopy{
+	font-size: 14px;
+	color: #aaaaaa;
+	font-weight:700;
+}
+hr{
+	background-color: #000
+}
+.btnvisitWDelete{
+	background-image: linear-gradient(#EEE,#FFF);
+	margin: 10px 0;
+    padding: 20px;
+}
+
